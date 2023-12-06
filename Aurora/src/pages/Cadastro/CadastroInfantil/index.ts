@@ -1,0 +1,1 @@
+export { CadastroInfantil } from './CadastroInfantil'

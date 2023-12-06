@@ -1,0 +1,1 @@
+export { EscolherPerfil } from './EscolherPerfil';

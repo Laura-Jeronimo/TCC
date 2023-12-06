@@ -1,0 +1,1 @@
+export { ModalResumoExplicativo } from './ModalResumoExplicativo'

@@ -4,3 +4,14 @@
     margin: 0;
     padding: 0;
 }
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #FE9E0D;
+  }
+  html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }

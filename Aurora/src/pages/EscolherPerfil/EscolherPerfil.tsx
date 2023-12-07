@@ -2,7 +2,7 @@ import { Stack } from "@mui/material";
 import * as Styled from "./EscolherPerfil.styled"
 import MonitorIcon from '../../assets/img/Monitor.png';
 import CriancaIcon from '../../assets/img/Criança.png';
-import Aurora from '../../assets/Aurora.svg'
+import Aurora from '../../assets/AURORA.svg'
 import { useNavigate } from "react-router-dom";
 
 export function EscolherPerfil() {

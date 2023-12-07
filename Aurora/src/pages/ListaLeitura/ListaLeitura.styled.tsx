@@ -1,7 +1,7 @@
 import { Grid, styled, Typography } from "@mui/material";
 import { MdFavorite } from "react-icons/md";
 import { FaBookOpenReader } from "react-icons/fa6";
-import { MdBookmarkAdd } from "react-icons/md";
+import { MdBookmarkAdd, MdBookmarkAdded  } from "react-icons/md";
 
 export const Titulo = styled(Typography)(({ theme }) => ({
     marginLeft: theme.spacing(15),
@@ -48,13 +48,21 @@ export const ToReadIcon = styled(MdBookmarkAdd)(({theme}) => ({
     color: '#730202',
 }))
 
+export const ReadIcon = styled(MdBookmarkAdded)(({theme}) => ({
+    marginLeft: theme.spacing(15),
+    marginTop: theme.spacing(3.7),
+    marginRight: theme.spacing(1),
+    fontSize: '30px',
+    color: '#730202',
+}))
+
 export const GridLeituras = styled(Grid)(({theme}) => ({
     display: 'flex',
-    marginLeft: theme.spacing(10),
+    marginLeft: theme.spacing(13),
 }))
 
 export const Capa = styled('img')(({theme}) => ({
-    paddingLeft: theme.spacing(4),
+    paddingLeft: theme.spacing(1.5),
     marginTop: theme.spacing(2),
     width: '60%%'
 }))
@@ -62,17 +70,22 @@ export const Capa = styled('img')(({theme}) => ({
 export const TituloLivros = styled(Typography)(({theme}) => ({
     fontSize: theme.spacing(2),
     fontWeight: 800,
-    marginLeft: theme.spacing(3.5)
+    marginLeft: theme.spacing(2.3)
 }))
 
 export const TextoLivros = styled(Typography)(({theme}) => ({
-    marginLeft: theme.spacing(3.5),
+    marginLeft: theme.spacing(2.3),
     fontSize: theme.spacing(2)
 }))
 
 export const TextoAviso = styled(Typography)(({ theme }) => ({
     fontSize: '16px',
-    marginLeft: theme.spacing(5),
+    marginLeft: theme.spacing(2.5),
     fontWeight: 500,
     marginBottom: theme.spacing(2)
 }))
+
+export const GridListas = styled(Grid)({
+    display: 'flex',
+    flexWrap: 'wrap'
+})

@@ -1,6 +1,7 @@
 import { Button, Checkbox, FormControl, FormLabel, Grid, Link, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { IoMdArrowBack } from "react-icons/io";
+import MaskedInput from 'react-text-mask';
 
 export const Container = styled(Grid)({
     display: "flex",
@@ -13,7 +14,8 @@ export const Container = styled(Grid)({
 
 export const Seta = styled(IoMdArrowBack)(({theme}) => ({
     fontSize: theme.spacing(3),
-    marginTop: theme.spacing(1)
+    marginTop: theme.spacing(1),
+    cursor: 'pointer'
 }));
 
 export const GridCentralizacao = styled(Grid)({
@@ -145,3 +147,12 @@ export const DivisaoNivel = styled(Grid)(({ theme }) => ({
     fontWeight: 500
  }));
  
+ export const InputData = styled(MaskedInput)(({theme}) => ({
+    width: '100%',
+    height: '100%',
+    borderRadius: "16px",
+    backgroundColor: 'rgba(240, 237, 255, 0.80)',
+    border: 'none',
+    fontFamily: 'Josefin Sans',
+    padding: theme.spacing(2)
+}))

@@ -1,0 +1,1 @@
+export { PerfilPai } from './PerfilPai'

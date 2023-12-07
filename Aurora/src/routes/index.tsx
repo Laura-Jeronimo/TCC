@@ -9,6 +9,8 @@ import { TelaInicial } from '../pages/TelaInicial';
 import { Biblioteca } from '../pages/Biblioteca';
 import { ListaLeitura } from '../pages/ListaLeitura';
 import { Livro } from '../pages/Livro';
+import { TelaInicialResponsavel } from '../pages/TelaInicialResponsavel';
+import { PerfilPai } from '../pages/PerfilPai';
 
 const AllRoutes: React.FC = () => {
     return (
@@ -19,7 +21,9 @@ const AllRoutes: React.FC = () => {
             <Route path="/informacao-cadastro-infantil" element={<Informacao />}/>
             <Route path="/cadastro/infantil" element={< CadastroInfantil/>} />
             <Route path="/home/:perfil/:nivel" element={< TelaInicial/>} />
+            <Route path="/home/:perfil" element={< TelaInicialResponsavel/>} />
             <Route path="/perfil/:perfil/:nivel" element={<Perfil />} />
+            <Route path="/perfil/:perfil" element={<PerfilPai />} />
             <Route path="/biblioteca/:perfil/:nivel" element={<Biblioteca />} />
             <Route path="/listaleitura/:perfil/:nivel" element={<ListaLeitura />} />
             <Route path='/livro' element={<Livro />} />

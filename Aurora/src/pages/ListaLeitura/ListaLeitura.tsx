@@ -14,55 +14,69 @@ export const ListaLeitura = () => {
             <Grid xs={2}>
                 <Sidebar />
             </Grid>
-            <Grid xs={10}>
-                <Styled.Titulo>Lista de Leitura</Styled.Titulo>
-                <Styled.GridIconeTexto>
-                    <Styled.ReadingIcon /> <Styled.TitulosListas>Lendo</Styled.TitulosListas>
-                </Styled.GridIconeTexto>
-                <Styled.GridLeituras>
-                    <Grid>
-                        <Styled.Capa src={BruxaeoCaldeirao} />
-                        <Styled.TituloLivros>A bruxa e o caldeirão</Styled.TituloLivros>
-                        <Styled.TextoLivros>José Leon Machado</Styled.TextoLivros>
-                    </Grid>
-                    <Grid>
-                        <Styled.Capa src={ChapeuzinhoAmarelo} />
-                        <Styled.TituloLivros>Chapeuzinho Amarelo</Styled.TituloLivros>
-                        <Styled.TextoLivros>Chico Buarque</Styled.TextoLivros>
-                    </Grid>
-                    <Grid>
-                        <Styled.Capa src={MagicoOz} />
-                        <Styled.TituloLivros>O Mágico de Oz</Styled.TituloLivros>
-                        <Styled.TextoLivros>L. Frank Baum</Styled.TextoLivros>
-                    </Grid>
-                </Styled.GridLeituras>
-                <Styled.GridIconeTexto>
-                    <Styled.ToReadIcon /> <Styled.TitulosListas>Quero ler</Styled.TitulosListas>
-                </Styled.GridIconeTexto>
-                <Styled.GridLeituras>
-                    <Grid>
-                        <Styled.Capa src={Pinoquio} />
-                        <Styled.TituloLivros>Pinóquio</Styled.TituloLivros>
-                        <Styled.TextoLivros>Carlo Collodi</Styled.TextoLivros>
-                    </Grid>
-                    <Grid>
-                        <Styled.Capa src={PeterPan} />
-                        <Styled.TituloLivros>Peter Pan</Styled.TituloLivros>
-                        <Styled.TextoLivros>J. M. Barrie</Styled.TextoLivros>
-                    </Grid>
-                    <Grid>
-                        <Styled.Capa src={MeninoMaluquinho} />
-                        <Styled.TituloLivros>O Menino Maluquinho</Styled.TituloLivros>
-                        <Styled.TextoLivros>Ziraldo</Styled.TextoLivros>
-                    </Grid>
-                </Styled.GridLeituras>
-                <Styled.GridIconeTexto>
-                    <Styled.FavIcon /> <Styled.TitulosListas>Favoritos</Styled.TitulosListas>
-                </Styled.GridIconeTexto>
-                <Styled.GridLeituras>
-                    <Styled.TextoAviso>POR AQUI ESTÁ VAZIO!</Styled.TextoAviso>
-                </Styled.GridLeituras>
-            </Grid>
+            <Styled.GridListas xs={10}>
+                <Grid xs={5}>
+                    <Styled.Titulo>Lista de Leitura</Styled.Titulo>
+                    <Styled.GridIconeTexto>
+                        <Styled.ReadingIcon /> <Styled.TitulosListas>Lendo</Styled.TitulosListas>
+                    </Styled.GridIconeTexto>
+                    <Styled.GridLeituras>
+                        <Grid>
+                            <Styled.Capa src={BruxaeoCaldeirao} />
+                            <Styled.TituloLivros>A bruxa e o caldeirão</Styled.TituloLivros>
+                            <Styled.TextoLivros>José Leon Machado</Styled.TextoLivros>
+                        </Grid>
+                        <Grid>
+                            <Styled.Capa src={ChapeuzinhoAmarelo} />
+                            <Styled.TituloLivros>Chapeuzinho Amarelo</Styled.TituloLivros>
+                            <Styled.TextoLivros>Chico Buarque</Styled.TextoLivros>
+                        </Grid>
+                        <Grid>
+                            <Styled.Capa src={MagicoOz} />
+                            <Styled.TituloLivros>O Mágico de Oz</Styled.TituloLivros>
+                            <Styled.TextoLivros>L. Frank Baum</Styled.TextoLivros>
+                        </Grid>
+                    </Styled.GridLeituras>
+                </Grid>
+                <Grid style={{marginTop: '130px'}} xs={5}>
+                    <Styled.GridIconeTexto>
+                        <Styled.ToReadIcon /> <Styled.TitulosListas>Quero ler</Styled.TitulosListas>
+                    </Styled.GridIconeTexto>
+                    <Styled.GridLeituras>
+                        <Grid>
+                            <Styled.Capa src={Pinoquio} />
+                            <Styled.TituloLivros>Pinóquio</Styled.TituloLivros>
+                            <Styled.TextoLivros>Carlo Collodi</Styled.TextoLivros>
+                        </Grid>
+                        <Grid>
+                            <Styled.Capa src={PeterPan} />
+                            <Styled.TituloLivros>Peter Pan</Styled.TituloLivros>
+                            <Styled.TextoLivros>J. M. Barrie</Styled.TextoLivros>
+                        </Grid>
+                        <Grid>
+                            <Styled.Capa src={MeninoMaluquinho} />
+                            <Styled.TituloLivros>O Menino Maluquinho</Styled.TituloLivros>
+                            <Styled.TextoLivros>Ziraldo</Styled.TextoLivros>
+                        </Grid>
+                    </Styled.GridLeituras>
+                </Grid>
+                <Grid xs={5}>
+                    <Styled.GridIconeTexto>
+                        <Styled.FavIcon /> <Styled.TitulosListas>Favoritos</Styled.TitulosListas>
+                    </Styled.GridIconeTexto>
+                    <Styled.GridLeituras>
+                        <Styled.TextoAviso>POR AQUI ESTÁ VAZIO!</Styled.TextoAviso>
+                    </Styled.GridLeituras>
+                </Grid>
+                <Grid xs={5}>
+                    <Styled.GridIconeTexto>
+                        <Styled.ReadIcon /> <Styled.TitulosListas>Lidos</Styled.TitulosListas>
+                    </Styled.GridIconeTexto>
+                    <Styled.GridLeituras>
+                        <Styled.TextoAviso>POR AQUI ESTÁ VAZIO!</Styled.TextoAviso>
+                    </Styled.GridLeituras>
+                </Grid>
+            </Styled.GridListas>
         </Grid>
     )
 }

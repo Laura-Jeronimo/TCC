@@ -28,11 +28,12 @@ export const GridFlex = styled(Grid)(({theme}) => ({
 
 export const Text = styled(Typography)(({theme}) => ({
     padding: theme.spacing(3),
-    fontSize: theme.spacing(2.5)
+    fontSize: theme.spacing(3),
+    fontWeight: 500
 }))
 
-export const IconLer = styled(RxSpeakerLoud)(({theme}) => ({
-    cursor: 'pointer',
-    fontSize: theme.spacing(2.5),
-    color: '#FF8213'
+
+export const Image = styled('img')(({theme}) => ({
+    width: '100%',
+    height: '100%'
 }))

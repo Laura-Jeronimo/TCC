@@ -19,6 +19,12 @@ import JardimSecreto from '../../assets/img/jardimsecreto.png'
 import BruxaeoCaldeirao from '../../assets/img/bruxaeocaldeirao.png'
 import MeninoMaluquinho from '../../assets/img/MeninoMaluquinho.png'
 import PeterPan from '../../assets/img/peterpan.png'
+import ArvoreGenerosa from '../../assets/img/arvoregenerosa.png'
+import CachinhosOuro from '../../assets/img/cachinhosdeouro.png'
+import MonstroQueAdoravaLer from '../../assets/img/monstroqueadoravaler.png'
+import DonaBaratinha from '../../assets/img/donabaratinha.png'
+import OsVizinhos from '../../assets/img/osvizinhos.png'
+import Pinoquio from '../../assets/img/pinoquio.png'
 import { useNavigate } from "react-router-dom";
 
 export const Biblioteca = () => {
@@ -67,6 +73,11 @@ export const Biblioteca = () => {
                 </Styled.GridPesquisa>
                 <Styled.GridBiblioteca>
                     <Grid>
+                        <Styled.Capa src={ArvoreGenerosa} />
+                        <Styled.TituloLivros>A árvore generosa</Styled.TituloLivros>
+                        <Styled.TextoLivros>Shel Silverstein</Styled.TextoLivros>
+                    </Grid>
+                    <Grid>
                         <Styled.Capa src={BruxaeoCaldeirao} />
                         <Styled.TituloLivros>A bruxa e o caldeirão</Styled.TituloLivros>
                         <Styled.TextoLivros>José Leon Machado</Styled.TextoLivros>
@@ -87,6 +98,11 @@ export const Biblioteca = () => {
                         <Styled.TextoLivros>Irmãos Grimm</Styled.TextoLivros>
                     </Grid>
                     <Grid>
+                        <Styled.Capa src={CachinhosOuro} />
+                        <Styled.TituloLivros>Cachinhos de Ouro</Styled.TituloLivros>
+                        <Styled.TextoLivros>Ana Maria Machado</Styled.TextoLivros>
+                    </Grid>
+                    <Grid>
                         <Styled.Capa src={ChapeuzinhoAmarelo} />
                         <Styled.TituloLivros>Chapeuzinho Amarelo</Styled.TituloLivros>
                         <Styled.TextoLivros>Chico Buarque</Styled.TextoLivros>
@@ -100,6 +116,11 @@ export const Biblioteca = () => {
                         <Styled.Capa src={IrmaosGrimm} />
                         <Styled.TituloLivros>Contos de fadas dos ...</Styled.TituloLivros>
                         <Styled.TextoLivros>Irmãos Grimm</Styled.TextoLivros>
+                    </Grid>
+                    <Grid>
+                        <Styled.Capa src={DonaBaratinha} />
+                        <Styled.TituloLivros>Dona Baratinha</Styled.TituloLivros>
+                        <Styled.TextoLivros>Ana Maria Machado</Styled.TextoLivros>
                     </Grid>
                     <Grid>
                         <Styled.Capa src={Malala} />
@@ -122,9 +143,24 @@ export const Biblioteca = () => {
                         <Styled.TextoLivros>Ziraldo</Styled.TextoLivros>
                     </Grid>
                     <Grid>
+                        <Styled.Capa src={MonstroQueAdoravaLer} />
+                        <Styled.TituloLivros>O monstro que ador...</Styled.TituloLivros>
+                        <Styled.TextoLivros>Lili Chartrand</Styled.TextoLivros>
+                    </Grid>
+                    <Grid>
+                        <Styled.Capa src={OsVizinhos} />
+                        <Styled.TituloLivros>Os Vizinhos</Styled.TituloLivros>
+                        <Styled.TextoLivros>Einat Tsarfati</Styled.TextoLivros>
+                    </Grid>
+                    <Grid>
                         <Styled.Capa src={PeterPan} />
                         <Styled.TituloLivros>Peter Pan</Styled.TituloLivros>
                         <Styled.TextoLivros>J. M. Barrie</Styled.TextoLivros>
+                    </Grid>
+                    <Grid>
+                        <Styled.Capa src={Pinoquio} />
+                        <Styled.TituloLivros>Pinóquio</Styled.TituloLivros>
+                        <Styled.TextoLivros>Carlo Collodi</Styled.TextoLivros>
                     </Grid>
                 </Styled.GridBiblioteca>
                 <Styled.GridPagination>

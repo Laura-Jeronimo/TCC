@@ -3,8 +3,9 @@ import { Grid, ListItemIcon, Link, ListItemText } from "@mui/material";
 import { AiOutlineHome } from "react-icons/ai";
 import { IoLibraryOutline } from "react-icons/io5";
 import { LuBookMarked } from "react-icons/lu";
-import { GoPerson } from "react-icons/go";
+import { GoPerson } from "react-icons/go"
 import { SubMenuProps } from "./Sidebar.types";
+import { IoExitOutline } from "react-icons/io5";
 
 export const SidebarWrapper = styled("div")(({ theme }) => ({
     transition: "all 0.3s",
@@ -91,3 +92,9 @@ export const IconProfile = styled(GoPerson)(({ theme }) => ({
     fontSize: theme.spacing(3.5),
     marginLeft: theme.spacing(1),
 }))
+
+export const IconExit = styled(IoExitOutline)(({theme}) => ({
+    fontSize: theme.spacing(3.5),
+    marginLeft: theme.spacing(1),
+}))
+

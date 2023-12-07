@@ -1,28 +1,25 @@
 import { styled, Grid, Typography, Box, Button } from "@mui/material";
 import { FaPlay } from "react-icons/fa6";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
-
-export const Header = styled(Grid)(({
-    display: 'flex',
-    borderBottom: 'solid 1px #D9D9D9',
-}));
-
-export const IconSol = styled('img')(({ theme }) => ({
-    width: '20%',
-    marginLeft: theme.spacing(4)
-}));
+import { SiBookstack } from "react-icons/si";
+import { IoIosTime } from "react-icons/io";
+import { GiSpellBook } from "react-icons/gi";
 
 export const Titulo = styled(Typography)(({ theme }) => ({
     fontSize: '40px',
     color: '#BF1304',
     fontWeight: 700,
     lineHeight: '65px',
-    marginTop: theme.spacing(5)
+    marginTop: theme.spacing(5),
+    marginLeft: theme.spacing(10)
 }))
 
 export const Texto = styled(Typography)(({ theme }) => ({
-    fontSize: theme.spacing(4),
-    fontWeight: 400,
+    fontSize: theme.spacing(3),
+    fontWeight: 900,
+    marginLeft: theme.spacing(10),
+    marginTop: theme.spacing(6),
+    marginBottom: theme.spacing(2)
 }))
 
 export const Leituras = styled(Grid)(({ theme }) => ({
@@ -33,7 +30,6 @@ export const Leituras = styled(Grid)(({ theme }) => ({
 export const TituloLeituras = styled(Typography)(({ theme }) => ({
     fontSize: theme.spacing(4),
     fontWeight: 700,
-    marginTop: '30px'
 }))
 
 export const TextoLeituras = styled(Typography)(({ theme }) => ({
@@ -47,10 +43,10 @@ export const BoxLeitura = styled(Box)(({ theme }) => ({
     borderRadius: theme.spacing(3),
     boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
     display: 'flex',
-    marginTop: theme.spacing(1)
+    marginBottom: theme.spacing(1)
 }))
 
-export const Capa = styled('img')(({ theme }) => ({
+export const Image = styled('img')(({ theme }) => ({
     padding: theme.spacing(3)
 }))
 
@@ -61,16 +57,26 @@ export const CapaLivros = styled('img')(({ theme }) => ({
 
 export const TituloBox = styled(Typography)(({ theme }) => ({
     fontSize: theme.spacing(2.5),
-    fontWeight: 700,
-    marginTop: '30px'
+    fontWeight: 900,
+    color: '#000',
+    marginTop: '30px',
+    textAlign: 'center',
 }))
 
 export const TextoBox = styled(Typography)(({ theme }) => ({
-    fontSize: theme.spacing(1.75)
+    fontSize: theme.spacing(1.75),
+    textAlign: 'center'
+}))
+
+
+export const TextoCard = styled(Typography)(({ theme }) => ({
+    fontSize: theme.spacing(2.5),
+    textAlign: 'center',
+    fontWeight: 300,
+    color: '#730202'
 }))
 
 export const GridButton = styled(Grid)(({ theme }) => ({
-    padding: theme.spacing(9),
     marginTop: theme.spacing(3)
 }))
 
@@ -104,9 +110,43 @@ export const Seta = styled(FaRegArrowAltCircleRight)(({theme}) => ({
 export const TituloLivros = styled(Typography)(({theme}) => ({
     fontSize: theme.spacing(2),
     fontWeight: 800,
-    marginLeft: theme.spacing(1.5)
+    marginLeft: theme.spacing(1.5),
 }))
 
 export const TextoLivros = styled(Typography)(({theme}) => ({
     marginLeft: theme.spacing(1.5)
 }))
+
+export const Center = styled(Grid)(({theme}) => ({
+    justifyContent: 'center',
+    textAlign: 'center',
+    alignItems: 'center',
+    marginTop: theme.spacing(4)
+}))
+
+export const CardInformacao = styled(Box)(({theme}) => ({
+    background: 'rgba(240, 237, 255, 0.80)',
+    borderRadius: theme.spacing(2),
+    width: '80%',
+    padding: theme.spacing(1),
+    textAlign: 'center'
+}))
+
+export const IconBooks = styled(SiBookstack)(({theme}) => ({
+    margin: theme.spacing(2),
+    fontSize: theme.spacing(7),
+    color: '#FE9E0D'
+}))
+
+export const IconTime = styled(IoIosTime)(({theme}) => ({
+    margin: theme.spacing(2),
+    fontSize: theme.spacing(7),
+    color: '#FE9E0D'
+}))
+
+export const IconGender = styled(GiSpellBook)(({theme}) => ({
+    margin: theme.spacing(2),
+    fontSize: theme.spacing(7),
+    color: '#FE9E0D'
+}))
+

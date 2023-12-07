@@ -95,17 +95,17 @@ export const IconPlay = styled(FaPlay)(({ theme }) => ({
     marginBottom: theme.spacing(0.5),
 }))
 
-export const GridLivros = styled(Grid)(({ theme }) => ({
+export const GridLivros = styled(Grid)({
     display: 'flex'
-}))
+})
 
-export const Seta = styled(FaRegArrowAltCircleRight)(({theme}) => ({
+export const Seta = styled(FaRegArrowAltCircleRight) ({
     fontSize: '50px',
     color: '#FE9E0D',
     padding: '100%',
     marginTop: '100%',
     cursor: 'pointer'
-}))
+})
 
 export const TituloLivros = styled(Typography)(({theme}) => ({
     fontSize: theme.spacing(2),

@@ -1,5 +1,5 @@
 import { ModalGraficoProps } from "./ModalGrafico.types";
-import { DialogContent, Dialog, Box, Grid, Button } from '@mui/material'
+import { DialogContent, Dialog, Box, Grid } from '@mui/material'
 import * as Styled from './ModalGrafico.styled'
 import GraficoRaissa from '../../../assets/img/graficoRaissa.png'
 import GraficoPedro from '../../../assets/img/graficoPedro.png'

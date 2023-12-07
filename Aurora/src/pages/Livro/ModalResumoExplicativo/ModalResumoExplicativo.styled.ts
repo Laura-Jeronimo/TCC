@@ -1,5 +1,5 @@
 
-import { styled, Grid, Typography, Button} from '@mui/material'
+import { styled, Grid, Typography} from '@mui/material'
 import { RiCloseCircleFill } from 'react-icons/ri'
 import { RxSpeakerLoud } from "react-icons/rx";
 
@@ -19,12 +19,12 @@ export const FecharIcon = styled(RiCloseCircleFill)(({ theme }) => ({
     cursor: 'pointer'
 }));
 
-export const GridFlex = styled(Grid)(({theme}) => ({
+export const GridFlex = styled(Grid)({
     display: 'flex',
     alignItems: 'center',
     textAlign: 'center',
     flexDirection: 'column'
-}))
+})
 
 export const Text = styled(Typography)(({theme}) => ({
     padding: theme.spacing(3),

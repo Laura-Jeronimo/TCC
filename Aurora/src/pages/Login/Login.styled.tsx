@@ -1,6 +1,5 @@
 import { Button, FormControl, FormLabel, Grid, Link, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import { MdOutlineMailOutline } from "react-icons/md";
 import { IoMdArrowBack } from "react-icons/io";
 
 export const Container = styled(Grid)({
@@ -10,9 +9,6 @@ export const Container = styled(Grid)({
     justifyContent: "center",
     position: 'absolute'
 });
-
-export const IconMail = styled(MdOutlineMailOutline)(({theme}) => ({
-}));
 
 export const Seta = styled(IoMdArrowBack)(({theme}) => ({
     fontSize: theme.spacing(3),

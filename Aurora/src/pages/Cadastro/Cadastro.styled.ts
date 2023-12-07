@@ -12,8 +12,8 @@ export const Container = styled(Grid)({
     position: 'absolute'
 });
 
-export const IconMail = styled(MdOutlineMailOutline)(({theme}) => ({
-}));
+export const IconMail = styled(MdOutlineMailOutline) ({
+});
 
 export const Seta = styled(IoMdArrowBack)(({theme}) => ({
     fontSize: theme.spacing(3),
@@ -90,9 +90,9 @@ export const BotaoEnviar = styled(Button)(({ theme }) => ({
     borderRadius: theme.spacing(3)
 }));
 
-export const GridBotao = styled(Grid)(({ theme }) => ({
+export const GridBotao = styled(Grid) ({
     justifyContent: 'center'
-}));
+});
 
 export const Texto = styled(Typography)(({ theme }) => ({
     color: "#730202",

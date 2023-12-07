@@ -1,4 +1,4 @@
-import { Box, Grid, IconButton, InputAdornment, Typography } from "@mui/material"
+import { Grid, Typography } from "@mui/material"
 import * as Styled from './Perfil.styled'
 import { Sidebar } from "../../components/Sidebar/Sidebar"
 import { useParams } from "react-router-dom"

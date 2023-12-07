@@ -1,9 +1,9 @@
 import { Grid, Typography, styled } from "@mui/material";
 
-export const GridPesquisa = styled(Grid)(({theme}) => ({
+export const GridPesquisa = styled(Grid) ({
     display: 'flex',
     justifyContent: 'space-between'
-}))
+})
 
 export const GridBiblioteca = styled(Grid)(({theme}) => ({
     display: 'flex',

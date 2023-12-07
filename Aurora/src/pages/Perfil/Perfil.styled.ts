@@ -76,7 +76,7 @@ export const TextoBox = styled(Typography)(({ theme }) => ({
     textAlign: 'center'
 }));
 
-export const BoxFavoritos = styled(Box)(({ theme }) => ({
+export const BoxFavoritos = styled(Box)(({
     border: 'solid 1px #9E9999',
     width: '300px',
     height: '150px',
@@ -88,7 +88,7 @@ export const BoxFavoritos = styled(Box)(({ theme }) => ({
 }));
 
 
-export const BoxUltimosLidos = styled(Box)(({ theme }) => ({
+export const BoxUltimosLidos = styled(Box)(({
     border: 'solid 1px #9E9999',
     width: '300px',
     height: '250px',
@@ -121,7 +121,7 @@ export const Img = styled('img')(({ theme }) => ({
     padding: theme.spacing(3)
 }))
 
-export const GridDetalhes = styled(Grid)(({ theme }) => ({
+export const GridDetalhes = styled(Grid)(({
     display: 'flex',
     justifyContent: 'space-around',
 }))

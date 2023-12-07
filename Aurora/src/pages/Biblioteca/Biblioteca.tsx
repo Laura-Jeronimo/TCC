@@ -1,4 +1,4 @@
-import { Grid, Paper, InputBase, IconButton, Pagination, Link } from "@mui/material"
+import { Grid, Paper, InputBase, IconButton, Pagination } from "@mui/material"
 import { Sidebar } from "../../components/Sidebar/Sidebar"
 import * as Styled from './Biblioteca.styled'
 import SearchIcon from '@mui/icons-material/Search';
@@ -25,11 +25,8 @@ import MonstroQueAdoravaLer from '../../assets/img/monstroqueadoravaler.png'
 import DonaBaratinha from '../../assets/img/donabaratinha.png'
 import OsVizinhos from '../../assets/img/osvizinhos.png'
 import Pinoquio from '../../assets/img/pinoquio.png'
-import { useNavigate } from "react-router-dom";
 
 export const Biblioteca = () => {
-
-    const navigate = useNavigate()
 
     const [genero, setGenero] = useState('');
 

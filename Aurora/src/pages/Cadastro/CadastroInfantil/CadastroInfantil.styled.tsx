@@ -85,9 +85,9 @@ export const BotaoEnviar = styled(Button)(({ theme }) => ({
     borderRadius: theme.spacing(3)
 }));
 
-export const GridBotao = styled(Grid)(({ theme }) => ({
+export const GridBotao = styled(Grid) ({
     justifyContent: 'center'
-}));
+});
 
 export const Texto = styled(Typography)(({ theme }) => ({
     fontSize: theme.spacing(2.5),
@@ -132,9 +132,9 @@ export const DivisaoNivel = styled(Grid)(({ theme }) => ({
     marginBottom: theme.spacing(3),
  }));
 
- export const DivCheckbox = styled(Grid)(({theme}) => ({
+ export const DivCheckbox = styled(Grid)({
     display: 'flex'
- }));
+ });
 
  export const CheckBox = styled(Checkbox)({
     padding: 0

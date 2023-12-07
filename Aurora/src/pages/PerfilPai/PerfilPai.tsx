@@ -1,13 +1,10 @@
-import { Box, Grid, IconButton, InputAdornment, Typography } from "@mui/material"
+import { Grid} from "@mui/material"
 import * as Styled from './PerfilPai.styled'
 import { Sidebar } from "../../components/Sidebar/Sidebar"
-import { useParams } from "react-router-dom"
 import Zanzao from '../../assets/img/Zanzão.png'
 import Chico from '../../assets/img/Chico.png'
 
 export const PerfilPai = () => {
-
-    const params = useParams()
 
     return (
         <Styled.MainDiv>

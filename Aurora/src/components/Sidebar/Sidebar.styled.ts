@@ -1,5 +1,5 @@
 import { styled } from "@mui/material/styles";
-import { Grid, ListItemIcon, Link, ListItemText } from "@mui/material";
+import { Grid, ListItemIcon, ListItemText } from "@mui/material";
 import { AiOutlineHome } from "react-icons/ai";
 import { IoLibraryOutline } from "react-icons/io5";
 import { LuBookMarked } from "react-icons/lu";
@@ -62,7 +62,7 @@ export const GridLogo = styled(Grid)(({ theme }) => ({
     padding: `${theme.spacing(1.25)} ${theme.spacing(0.625)} ${theme.spacing(1.25)} ${theme.spacing(0.625)}`,
 }));
 
-export const wrapperMainDiv = styled('div')(({ theme }) => ({
+export const wrapperMainDiv = styled('div')(({
     display: 'flex',
     height: '100% !important',
     width: '80%',

@@ -201,7 +201,7 @@ export const GridVoltar = styled(Grid)(({theme}) => ({
     height: '90%',
 }))
 
-export const Seta = styled(IoMdArrowBack)(({theme}) => ({
+export const Seta = styled(IoMdArrowBack)(({
     fontSize: '50px',
     color: '#000',
     cursor: 'pointer',

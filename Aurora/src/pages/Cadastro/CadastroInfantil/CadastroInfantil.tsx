@@ -1,5 +1,5 @@
 
-import { Grid, InputMask } from "@mui/material";
+import { Grid } from "@mui/material";
 import * as Styled from "./CadastroInfantil.styled";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -52,7 +52,7 @@ export function CadastroInfantil() {
                     <Grid item xs={10} sm={8} md={9} lg={8} xl={6}>
                         <Styled.Titulo>OLÁ, RESPONSÁVEL</Styled.Titulo>
                         <Styled.Texto>Por favor, preencha as informações abaixo para cadastrar o seu filho</Styled.Texto>
-                        {forms.map((form, index) => (
+                        {forms.map((_form, index) => (
                             <form key={index}>
                                 <Grid item xs={12}>
                                     <Styled.FormControlGeneric>
